@@ -13,42 +13,6 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity implements SensorEventListener {
 
-	SensorManager snsmgr;
-	Sensor acSens;
-	TextView tvX, tvY, tvZ;
-	
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-	
-		
-		tvX = (TextView) findViewById(R.id.textView1);
-		tvY = (TextView) findViewById(R.id.textView2);
-		tvZ = (TextView) findViewById(R.id.textView3);
-		
-		snsmgr = (SensorManager) getSystemService(SENSOR_SERVICE);
-	    acSens = snsmgr.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-	}
-	
-	
-	@Override
-	public void onAccuracyChanged(Sensor sensor, int accuracy) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void onSensorChanged(SensorEvent event) {
-		// TODO Auto-generated method stub
-		
-		Float 
-		
-	}
-
-/* implements SensorEventListener {
-
 	SensorManager sensmgr;
 	Sensor accSensor;
 
@@ -127,6 +91,6 @@ public class MainActivity extends Activity implements SensorEventListener {
 		super.onPause();
 	}
 	
-	*/
+	
 
 }
