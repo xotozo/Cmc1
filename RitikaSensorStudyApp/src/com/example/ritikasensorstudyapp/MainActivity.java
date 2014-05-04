@@ -16,7 +16,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 	SensorManager sensmgr;
 	Sensor accSensor;
 
-	TextView tvX, tvY, tvZ;
+	TextView tvX, tvY, tvZ; //ravi
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
